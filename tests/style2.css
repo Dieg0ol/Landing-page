@@ -17,7 +17,7 @@ header li {
     padding: 0 20px;
 }
 
-
+/*posicionamento header*/
 header {
     display: flex;
     justify-content: flex-start;
@@ -26,6 +26,7 @@ header {
     box-shadow: 0 1px 8px #ddd; 
     
 }
+/*posionamento h1*/
 #nav-title {
     margin-right: auto;
     font-size: 1.5em;
