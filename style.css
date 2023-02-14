@@ -1,69 +1,51 @@
-:root {
-    --marineblue: #1F2937;
-    --white: #E5E7EB;
-    --fullwithe: #F9FAF8;
-    --blue: #3882F6;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
 }
 
-header {
-    display: flex;
+nav {
+    background: #1f2937; /*azul escuro*/
+    width: 100%;
+    padding: 10px 0; /* 10px em cima e baixo e 0px esquerda e direita */
+
+}
+
+nav .menu {
+    max-width:1000px; /* define o tamanho container */
+   
+    margin: auto; /* centraliza no container */
+    display: flex; 
+    align-items: center;
     justify-content: space-between;
-    padding: 10px 100px;
-    align-items: center;
-    background-color: var(--marineblue);
-    color: var(--white);
+    padding: 0 20px; /* 0px em cima e baixo e 20px direita e esquerda */
 }
 
-nav ul {
+.menu .logo a {
+    text-decoration: none; /* tira underline */ 
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.menu ul {
+    display: inline-flex;
+}
+
+.menu ul li {
     list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--white);
-    text-decoration: none;
-    gap: 30px;
+    margin-left: 20px;
     
 }
-a {
-    color: var(--white);
+ /* precisa escolher especificamente o item a ser alterado se ele estiver dentro de alguma outra coisa
+ não funciona por isso se color as config abaixo na parte de cima não funciona!! */
+.menu ul li a {
     text-decoration: none;
+    color: #fff;
+    font-size: 15px; /* talvez alterar isso aqui */ 
+    
+    
 }
 
-.awesome-website {
-    padding: 10px 100px;
-    display: flex;
-    flex-direction: column;
-    color: var(--white);
-    background: var(--marineblue)
-}
-h1 {
-    font-size: 48px;
-    color: var(--fullwithe);
-
-}
-.container-paragraph {
-    width: 45%;
-
-}
-
-button {
-    background-color: var(--blue);
-    color: var(--white);
-    box-shadow: none;
-    width: 10%;
-    /* height: 2100%; */
-    padding: 10px 12px;
-    border-radius: 8px;
-    border: none
-}
-
-.container-h1 {
-    width: 50%;
-}
