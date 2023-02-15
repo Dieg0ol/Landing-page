@@ -8,28 +8,35 @@
 }
 
 nav {
-    background: #1f2937; /*azul escuro*/
+    background: #1f2937;
+    /*azul escuro*/
     width: 100%;
-    padding: 10px 0; /* 10px em cima e baixo e 0px esquerda e direita */
+    padding: 10px 0;
+    /* 10px em cima e baixo e 0px esquerda e direita */
 
 }
 
 nav .menu {
-    max-width:1000px; /* define o tamanho container */
-   
-    margin: auto; /* centraliza no container */
-    display: flex; 
+    max-width: 1000px;
+    /* define o tamanho container */
+
+    margin: auto;
+    /* centraliza no container */
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px; /* 0px em cima e baixo e 20px direita e esquerda */
+    padding: 0 20px;
+    /* 0px em cima e baixo e 20px direita e esquerda */
 }
 
 .menu .logo a {
-    text-decoration: none; /* tira underline */ 
-    color: #fff;
-    font-size: 20px;
+    text-decoration: none;
+    /* tira underline */
+    color: #F9FAF8;
+    font-size: 24px;
     font-weight: 600;
 }
+
 .menu ul {
     display: inline-flex;
 }
@@ -37,15 +44,120 @@ nav .menu {
 .menu ul li {
     list-style: none;
     margin-left: 20px;
-    
+
 }
- /* precisa escolher especificamente o item a ser alterado se ele estiver dentro de alguma outra coisa
+
+/* precisa escolher especificamente o item a ser alterado se ele estiver dentro de alguma outra coisa
  não funciona por isso se color as config abaixo na parte de cima não funciona!! */
 .menu ul li a {
     text-decoration: none;
-    color: #fff;
-    font-size: 15px; /* talvez alterar isso aqui */ 
-    
-    
+    color: #E5E7EB;
+    font-size: 18px;
+    /* talvez alterar isso aqui */
 }
+
+
+/* aqui é a parte do awesome website */
+img {
+    width: 500px;
+    height: 230px;
+}
+
+.container {
+    background: #1f2937;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.container .container-website {
+    max-width: 1050px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 50px;
+}
+.container .container-website .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.container .some-text {
+    color: #E5E7EB;
+}
+.container .container-website {
+    padding: 60px;
+}
+
+.container .container-website button {
+    padding: 6px 20px;
+    border-radius: 5px;
+    border: none;
+    background: #3882f6;
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
