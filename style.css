@@ -96,10 +96,42 @@ img {
     margin-top: 10px;
 }
 
+/* aqui começa o random information */
+
+.random-information {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    margin-bottom: 20px;
+
+
+}
+.images-random {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.info {
+    max-width: 203px;
+    padding: 21px;
+    font-size: 17px;
+    color: #1f2937
+}
+
+.simple-title {
+    text-align: center;
+    margin: 30px;
+    font-size: 36px;
+    font-weight:bold;
+    color: #1f2937;
+
+}
 
 
 
-
+/* aqui começo o quoted bro */
 
 
 
