@@ -133,6 +133,125 @@ img {
 
 /* aqui começo o quoted bro */
 
+.quote {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 60px 0;
+
+    
+    
+    
+}
+
+.phrase {
+    font-size: 36px;
+    font-style: italic;
+    max-width: 800px;
+}
+
+
+.thor {
+    margin-left: 550px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+/* aqui começa o call to action o botão azul imenso */
+
+.container-call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test {
+    display: flex;
+    max-width: 900px;
+    background-color: #3882f6;
+    padding: 30px 90px;
+    gap: 20px;
+}
+
+.test h1 {
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
