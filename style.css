@@ -77,11 +77,13 @@ img {
     padding: 40px;
     gap: 50px;
 }
+
 .container .container-website .title {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8; 
+    color: #F9FAF8;
 }
+
 .container .some-text {
     color: #E5E7EB;
 }
@@ -107,6 +109,7 @@ img {
 
 
 }
+
 .images-random {
     width: 150px;
     height: 150px;
@@ -124,7 +127,7 @@ img {
     text-align: center;
     margin: 30px;
     font-size: 36px;
-    font-weight:bold;
+    font-weight: bold;
     color: #1f2937;
 
 }
@@ -142,9 +145,9 @@ img {
     flex-direction: column;
     padding: 60px 0;
 
-    
-    
-    
+
+
+
 }
 
 .phrase {
@@ -163,10 +166,12 @@ img {
 
 /* aqui começa o call to action o botão azul imenso */
 
-.container-call{
+.container-call {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 100px 0;
+
 }
 
 .test {
@@ -174,139 +179,49 @@ img {
     max-width: 900px;
     background-color: #3882f6;
     padding: 30px 90px;
-    gap: 20px;
+    gap: 60px;
+    border-radius: 6px;
+
 }
 
 .test h1 {
     color: white;
-    
+
 }
 
+.test p {
+    color: #E5E7EB;
+}
 
+.test a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
 
+.sign-up {
+    border: solid;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 22px;
+    border-radius: 6px;
+    border-width: 3px;
+    background: #3882f6;
+    border-color: #fff;
+    border-width: 2px;
+    cursor: pointer;
 
+}
 
+/* Aqui começa o footer bro */
 
+footer {
 
 
+    background-color: #1f2937;
+    color: #F9FAF8;
+    height: 70px;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
